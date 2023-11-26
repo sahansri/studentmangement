@@ -14,6 +14,7 @@
     include("../../script/conn.php");
     $query = "SELECT * FROM subject";
     $result1 = mysqli_query($conn, $query);
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
